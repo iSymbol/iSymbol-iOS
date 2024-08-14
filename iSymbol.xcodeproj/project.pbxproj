@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		051156142C66620D00230CFE /* ReusableIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051156132C66620D00230CFE /* ReusableIdentifier.swift */; };
 		056F30002C5CB2DD00931302 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056F2FFF2C5CB2DD00931302 /* AppDelegate.swift */; };
 		056F30022C5CB2DD00931302 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056F30012C5CB2DD00931302 /* SceneDelegate.swift */; };
 		056F30092C5CB2DF00931302 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 056F30082C5CB2DF00931302 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		051156132C66620D00230CFE /* ReusableIdentifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableIdentifier.swift; sourceTree = "<group>"; };
 		056F2FFC2C5CB2DD00931302 /* iSymbol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iSymbol.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		056F2FFF2C5CB2DD00931302 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		056F30012C5CB2DD00931302 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -46,6 +48,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		051156122C6661F100230CFE /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				051156132C66620D00230CFE /* ReusableIdentifier.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		056F2FF32C5CB2DD00931302 = {
 			isa = PBXGroup;
 			children = (
@@ -131,6 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				056F30242C5CBE2E00931302 /* Base */,
+				051156122C6661F100230CFE /* Extension */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -291,6 +302,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				051156142C66620D00230CFE /* ReusableIdentifier.swift in Sources */,
 				056F301F2C5CB44A00931302 /* BaseViewController.swift in Sources */,
 				056F301A2C5CB3B300931302 /* HomeVC.swift in Sources */,
 				056F301C2C5CB40C00931302 /* HomeView.swift in Sources */,
