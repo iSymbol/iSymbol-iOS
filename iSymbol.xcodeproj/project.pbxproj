@@ -21,6 +21,7 @@
 		0511B18D2C84E2CB00433173 /* UIButton+Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0511B18C2C84E2CB00433173 /* UIButton+Login.swift */; };
 		0511B18F2C84E79800433173 /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0511B18E2C84E79800433173 /* RegistrationController.swift */; };
 		0511B1912C84E7B500433173 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0511B1902C84E7B500433173 /* RegistrationView.swift */; };
+		0511B1962C85029800433173 /* String+Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0511B1952C85029800433173 /* String+Authentication.swift */; };
 		056F30002C5CB2DD00931302 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056F2FFF2C5CB2DD00931302 /* AppDelegate.swift */; };
 		056F30022C5CB2DD00931302 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056F30012C5CB2DD00931302 /* SceneDelegate.swift */; };
 		056F30092C5CB2DF00931302 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 056F30082C5CB2DF00931302 /* Assets.xcassets */; };
@@ -48,6 +49,7 @@
 		0511B18C2C84E2CB00433173 /* UIButton+Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Login.swift"; sourceTree = "<group>"; };
 		0511B18E2C84E79800433173 /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
 		0511B1902C84E7B500433173 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		0511B1952C85029800433173 /* String+Authentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Authentication.swift"; sourceTree = "<group>"; };
 		056F2FFC2C5CB2DD00931302 /* iSymbol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iSymbol.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		056F2FFF2C5CB2DD00931302 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		056F30012C5CB2DD00931302 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 				051156132C66620D00230CFE /* ReusableIdentifier.swift */,
 				0511B1712C84BF8A00433173 /* UIColor+.swift */,
 				0511B18C2C84E2CB00433173 /* UIButton+Login.swift */,
+				0511B1952C85029800433173 /* String+Authentication.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -287,6 +290,8 @@
 			dependencies = (
 			);
 			name = iSymbol;
+			packageProductDependencies = (
+			);
 			productName = iSymbol;
 			productReference = 056F2FFC2C5CB2DD00931302 /* iSymbol.app */;
 			productType = "com.apple.product-type.application";
@@ -315,6 +320,8 @@
 				Base,
 			);
 			mainGroup = 056F2FF32C5CB2DD00931302;
+			packageReferences = (
+			);
 			productRefGroup = 056F2FFD2C5CB2DD00931302 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -390,6 +397,7 @@
 				056F301A2C5CB3B300931302 /* HomeController.swift in Sources */,
 				0511B1912C84E7B500433173 /* RegistrationView.swift in Sources */,
 				056F301C2C5CB40C00931302 /* HomeView.swift in Sources */,
+				0511B1962C85029800433173 /* String+Authentication.swift in Sources */,
 				0511B18F2C84E79800433173 /* RegistrationController.swift in Sources */,
 				0511B16E2C84820500433173 /* LoginIntroController.swift in Sources */,
 				0511B1822C84DA0B00433173 /* AuthService.swift in Sources */,
