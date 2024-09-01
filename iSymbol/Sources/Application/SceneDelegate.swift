@@ -17,8 +17,12 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         options connectionOptions: UIScene.ConnectionOptions
     ) {
         guard let windowScene = (scene as? UIWindowScene) else { return }
+
+        let loginIntroVC = LoginIntroController()
+        loginIntroVC.navigationController?.setNavigationBarHidden(true, animated: true)
+
         window = UIWindow(windowScene: windowScene)
-        window?.rootViewController = HomeVC()
+        window?.rootViewController = UINavigationController(rootViewController: loginIntroVC)
         window?.makeKeyAndVisible()
     }
     
@@ -36,5 +40,4 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     
     func sceneDidEnterBackground(_ scene: UIScene) {
     }
-    
 }
