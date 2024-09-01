@@ -1,5 +1,5 @@
 //
-//  UIButton+Login.swift
+//  UIButton+Authentication.swift
 //  iSymbol
 //
 //  Created by RAFA on 9/2/24.
@@ -28,5 +28,20 @@ extension UIButton {
         attributedTitle.append(NSAttributedString(string: secondPart, attributes: boldString))
 
         setAttributedTitle(attributedTitle, for: .normal)
+    }
+
+    func updateButtonState(isEnabled: Bool, title: String) {
+        self.isEnabled = isEnabled
+        self.backgroundColor = isEnabled ? .buttonColor : .buttonColor.withAlphaComponent(0.4)
+        self.setAttributedTitle(
+            NSAttributedString(
+                string: title,
+                attributes: [
+                    .font: UIFont.systemFont(ofSize: 20, weight: .medium),
+                    .foregroundColor: isEnabled ? .white : UIColor.white.withAlphaComponent(0.4)
+                ]
+            ),
+            for: .normal
+        )
     }
 }
