@@ -20,4 +20,14 @@ extension String {
         let passwordPred = NSPredicate(format:"SELF MATCHES %@", passwordRegEx)
         return passwordPred.evaluate(with: self)
     }
+
+    func isValidConfirmPassword(password: String) -> Bool {
+        return self == password
+    }
+
+    func isValidUsername() -> Bool {
+        let usernameRegEx = "^(?:(?=.*[A-Za-z])[A-Za-z]{3,16}|[가-힣]{2,8})$"
+        let usernamePred = NSPredicate(format:"SELF MATCHES %@", usernameRegEx)
+        return usernamePred.evaluate(with: self)
+    }
 }
