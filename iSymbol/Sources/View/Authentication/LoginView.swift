@@ -75,19 +75,6 @@ final class LoginView: BaseView {
     // MARK: - Helpers
 
     func updateLoginButton(isEnabled: Bool) {
-        loginButton.do {
-            $0.isEnabled = isEnabled
-            $0.backgroundColor = isEnabled ? .buttonColor : .buttonColor.withAlphaComponent(0.4)
-            $0.setAttributedTitle(
-                NSAttributedString(
-                    string: "Login",
-                    attributes: [
-                        .font: UIFont.systemFont(ofSize: 20, weight: .medium),
-                        .foregroundColor: isEnabled ? .white : UIColor.white.withAlphaComponent(0.4)
-                    ]
-                ),
-                for: .normal
-            )
-        }
+        loginButton.updateButtonState(isEnabled: isEnabled, title: "Login")
     }
 }

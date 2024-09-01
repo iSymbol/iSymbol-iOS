@@ -77,4 +77,10 @@ final class RegistrationView: BaseView {
             $0.height.equalTo(50)
         }
     }
+
+    // MARK: - Helpers
+
+    func updateSignUpButton(isEnabled: Bool) {
+        signUpButton.updateButtonState(isEnabled: isEnabled, title: "Sign Up")
+    }
 }
