@@ -18,7 +18,7 @@
 		0511B1862C84DC7B00433173 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0511B1852C84DC7B00433173 /* LoginView.swift */; };
 		0511B1882C84DC9600433173 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0511B1872C84DC9600433173 /* LoginController.swift */; };
 		0511B18B2C84E07800433173 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0511B18A2C84E07800433173 /* CustomTextField.swift */; };
-		0511B18D2C84E2CB00433173 /* UIButton+Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0511B18C2C84E2CB00433173 /* UIButton+Login.swift */; };
+		0511B18D2C84E2CB00433173 /* UIButton+Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0511B18C2C84E2CB00433173 /* UIButton+Authentication.swift */; };
 		0511B18F2C84E79800433173 /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0511B18E2C84E79800433173 /* RegistrationController.swift */; };
 		0511B1912C84E7B500433173 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0511B1902C84E7B500433173 /* RegistrationView.swift */; };
 		0511B1962C85029800433173 /* String+Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0511B1952C85029800433173 /* String+Authentication.swift */; };
@@ -46,7 +46,7 @@
 		0511B1852C84DC7B00433173 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		0511B1872C84DC9600433173 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		0511B18A2C84E07800433173 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
-		0511B18C2C84E2CB00433173 /* UIButton+Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Login.swift"; sourceTree = "<group>"; };
+		0511B18C2C84E2CB00433173 /* UIButton+Authentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Authentication.swift"; sourceTree = "<group>"; };
 		0511B18E2C84E79800433173 /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
 		0511B1902C84E7B500433173 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
 		0511B1952C85029800433173 /* String+Authentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Authentication.swift"; sourceTree = "<group>"; };
@@ -82,7 +82,7 @@
 			children = (
 				051156132C66620D00230CFE /* ReusableIdentifier.swift */,
 				0511B1712C84BF8A00433173 /* UIColor+.swift */,
-				0511B18C2C84E2CB00433173 /* UIButton+Login.swift */,
+				0511B18C2C84E2CB00433173 /* UIButton+Authentication.swift */,
 				0511B1952C85029800433173 /* String+Authentication.swift */,
 			);
 			path = Extension;
@@ -408,7 +408,7 @@
 				0511B1862C84DC7B00433173 /* LoginView.swift in Sources */,
 				0511B1722C84BF8A00433173 /* UIColor+.swift in Sources */,
 				0511B1842C84DB7700433173 /* Constant.swift in Sources */,
-				0511B18D2C84E2CB00433173 /* UIButton+Login.swift in Sources */,
+				0511B18D2C84E2CB00433173 /* UIButton+Authentication.swift in Sources */,
 				0511B1882C84DC9600433173 /* LoginController.swift in Sources */,
 				0511B18B2C84E07800433173 /* CustomTextField.swift in Sources */,
 			);
