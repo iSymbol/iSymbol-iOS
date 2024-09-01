@@ -36,11 +36,44 @@ final class LoginController: BaseViewController {
         navigationController?.pushViewController(registrationVC, animated: true)
     }
 
+    @objc private func textFieldsDidChange() {
+        let email = loginView.emailTextField.text ?? ""
+        let password = loginView.pwTextField.text ?? ""
+        let isEmailValid = email.isValidEmail()
+        let isPasswordValid = password.isValidPassword()
+
+        if isEmailValid && isPasswordValid {
+            loginView.updateLoginButton(isEnabled: true)
+        } else {
+            loginView.updateLoginButton(isEnabled: false)
+        }
+    }
+
     @objc private func handleEmailLogin() {
-        print("DEBUG: Email Login")
+        let email = "test0@gmail.com"
+        let pw = "test0000"
+
+        if loginView.emailTextField.text == email && loginView.pwTextField.text == pw {
+            let homeVC = HomeController()
+            let nav = UINavigationController(rootViewController: homeVC)
+            nav.modalPresentationStyle = .fullScreen
+            present(nav, animated: true)
+        }
     }
 
     override func setButtonActions() {
+        loginView.emailTextField.addTarget(
+            self,
+            action: #selector(textFieldsDidChange),
+            for: .editingChanged
+        )
+
+        loginView.pwTextField.addTarget(
+            self,
+            action: #selector(textFieldsDidChange),
+            for: .editingChanged
+        )
+
         loginView.createAccountButton.addTarget(
             self,
             action: #selector(navigateToRegistrationView),
