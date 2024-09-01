@@ -1,5 +1,5 @@
 //
-//  HomeVC.swift
+//  HomeController.swift
 //  iSymbol
 //
 //  Created by RAFA on 8/2/24.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-final class HomeVC: BaseViewController {
+final class HomeController: BaseViewController {
     
     // MARK: - Lifecycle
     
