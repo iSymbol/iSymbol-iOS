@@ -26,6 +26,8 @@ final class RegistrationView: BaseView {
     let credentialsStackView = UIStackView()
     let signUpButton = UIButton(type: .system)
 
+    // MARK: - Set UI
+
     override func configureComponents() {
         credentialsStackView.do {
             $0.addArrangedSubview(usernameTextField)
@@ -39,16 +41,16 @@ final class RegistrationView: BaseView {
         }
 
         signUpButton.do {
-            $0.backgroundColor = .buttonColor
+            $0.backgroundColor = .buttonColor.withAlphaComponent(0.4)
             $0.clipsToBounds = true
             $0.layer.cornerRadius = 10
-            $0.isEnabled = true
+            $0.isEnabled = false
             $0.setAttributedTitle(
                 NSAttributedString(
-                    string: "Login",
+                    string: "Sign Up",
                     attributes: [
                         .font: UIFont.systemFont(ofSize: 20, weight: .medium),
-                        .foregroundColor: UIColor.white
+                        .foregroundColor: UIColor.white.withAlphaComponent(0.4)
                     ]
                 ),
                 for: .normal
