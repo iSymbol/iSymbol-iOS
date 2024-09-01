@@ -18,10 +18,16 @@ final class RegistrationController: BaseViewController{
     override func loadView() {
         view = registrationView
         title = "Sign Up"
+    }
+
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+
         navigationController?.navigationBar.titleTextAttributes = [
             .foregroundColor: UIColor.systemYellow
         ]
     }
+
     // MARK: - Actions
 
     @objc private func textFieldsDidChange() {
