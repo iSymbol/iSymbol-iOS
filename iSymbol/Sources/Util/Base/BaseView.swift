@@ -11,7 +11,11 @@ import SnapKit
 import Then
 
 class BaseView: UIView {
-    
+
+    // MARK: - Properties
+
+    private let gradientLayer = CAGradientLayer()
+
     // MARK: - Lifecycle
     
     override init(frame: CGRect) {
@@ -26,14 +30,35 @@ class BaseView: UIView {
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-    
+
+    override func layoutSubviews() {
+        super.layoutSubviews()
+
+        applyGradientBackground()
+    }
+
     // MARK: - UI Configuration
     
-    func setupUI() { backgroundColor = .white }
+    func setupUI() {}
     
     func configureComponents() {}
     
     func addSubviews() {}
     
     func setupConstraints() {}
+}
+
+private extension BaseView {
+
+    func applyGradientBackground() {
+        gradientLayer.colors = [
+            UIColor.subColor.cgColor,
+            UIColor.mainColor.cgColor
+        ]
+
+        gradientLayer.locations = [0.0, 1.0]
+        gradientLayer.frame = bounds
+
+        layer.insertSublayer(gradientLayer, at: 0)
+    }
 }
