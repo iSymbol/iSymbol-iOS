@@ -16,6 +16,9 @@
 		056F301C2C5CB40C00931302 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056F301B2C5CB40C00931302 /* HomeView.swift */; };
 		056F301F2C5CB44A00931302 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056F301E2C5CB44A00931302 /* BaseViewController.swift */; };
 		056F30212C5CB4F500931302 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056F30202C5CB4F500931302 /* BaseView.swift */; };
+		4F4DA8AB2C84C342006CFE37 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4DA8AA2C84C342006CFE37 /* OnboardingView.swift */; };
+		4F4DA8AE2C84C360006CFE37 /* OnboardingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4DA8AD2C84C360006CFE37 /* OnboardingVC.swift */; };
+		4F4DA8B12C88DF07006CFE37 /* OnboardingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4DA8B02C88DF07006CFE37 /* OnboardingModel.swift */; };
 		784BD5D40BCA8A289965F7C8 /* Pods_iSymbol.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47CECE3639639584775D2F47 /* Pods_iSymbol.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +35,9 @@
 		056F301E2C5CB44A00931302 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		056F30202C5CB4F500931302 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		47CECE3639639584775D2F47 /* Pods_iSymbol.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iSymbol.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F4DA8AA2C84C342006CFE37 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		4F4DA8AD2C84C360006CFE37 /* OnboardingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingVC.swift; sourceTree = "<group>"; };
+		4F4DA8B02C88DF07006CFE37 /* OnboardingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingModel.swift; sourceTree = "<group>"; };
 		51E66DE497B97CE55F3946E0 /* Pods-iSymbol.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSymbol.release.xcconfig"; path = "Target Support Files/Pods-iSymbol/Pods-iSymbol.release.xcconfig"; sourceTree = "<group>"; };
 		8FBAE6FEC5B3B82FD3EB5D71 /* Pods-iSymbol.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSymbol.debug.xcconfig"; path = "Target Support Files/Pods-iSymbol/Pods-iSymbol.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -117,6 +123,7 @@
 		056F30162C5CB31B00931302 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				4F4DA8AF2C88DEEE006CFE37 /* OnboardingModel */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -124,6 +131,7 @@
 		056F30172C5CB33C00931302 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				4F4DA8AC2C84C34F006CFE37 /* Onboarding */,
 				056F30232C5CBE2900931302 /* Home */,
 			);
 			path = Controller;
@@ -132,6 +140,7 @@
 		056F30182C5CB34500931302 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				4F4DA8A92C84C331006CFE37 /* Onboarding */,
 				056F30222C5CBE2100931302 /* Home */,
 			);
 			path = View;
@@ -178,6 +187,30 @@
 				51E66DE497B97CE55F3946E0 /* Pods-iSymbol.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		4F4DA8A92C84C331006CFE37 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				4F4DA8AA2C84C342006CFE37 /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		4F4DA8AC2C84C34F006CFE37 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				4F4DA8AD2C84C360006CFE37 /* OnboardingVC.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		4F4DA8AF2C88DEEE006CFE37 /* OnboardingModel */ = {
+			isa = PBXGroup;
+			children = (
+				4F4DA8B02C88DF07006CFE37 /* OnboardingModel.swift */,
+			);
+			path = OnboardingModel;
 			sourceTree = "<group>";
 		};
 		5EDBE6E4986AEAB03C2D5398 /* Frameworks */ = {
@@ -303,10 +336,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				051156142C66620D00230CFE /* ReusableIdentifier.swift in Sources */,
+				4F4DA8AE2C84C360006CFE37 /* OnboardingVC.swift in Sources */,
 				056F301F2C5CB44A00931302 /* BaseViewController.swift in Sources */,
 				056F301A2C5CB3B300931302 /* HomeVC.swift in Sources */,
 				056F301C2C5CB40C00931302 /* HomeView.swift in Sources */,
 				056F30212C5CB4F500931302 /* BaseView.swift in Sources */,
+				4F4DA8B12C88DF07006CFE37 /* OnboardingModel.swift in Sources */,
+				4F4DA8AB2C84C342006CFE37 /* OnboardingView.swift in Sources */,
 				056F30002C5CB2DD00931302 /* AppDelegate.swift in Sources */,
 				056F30022C5CB2DD00931302 /* SceneDelegate.swift in Sources */,
 			);
