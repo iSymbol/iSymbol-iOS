@@ -8,5 +8,7 @@ target 'iSymbol' do
   # Pods for iSymbol
   pod 'SnapKit', '~> 5.7.0'
   pod 'Then'
+  pod 'FirebaseAuth'
+  pod 'FirebaseFirestore'
 
 end

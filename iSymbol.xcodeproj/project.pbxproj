@@ -8,11 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		051156142C66620D00230CFE /* ReusableIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051156132C66620D00230CFE /* ReusableIdentifier.swift */; };
+		0511B16A2C847E5F00433173 /* LoginIntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0511B1692C847E5F00433173 /* LoginIntroView.swift */; };
+		0511B16E2C84820500433173 /* LoginIntroController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0511B16D2C84820500433173 /* LoginIntroController.swift */; };
+		0511B1722C84BF8A00433173 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0511B1712C84BF8A00433173 /* UIColor+.swift */; };
+		0511B1752C84C72D00433173 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0511B1742C84C72D00433173 /* Pacifico-Regular.ttf */; };
+		0511B17F2C84D8F700433173 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0511B17E2C84D8F700433173 /* GoogleService-Info.plist */; };
+		0511B1822C84DA0B00433173 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0511B1812C84DA0B00433173 /* AuthService.swift */; };
+		0511B1842C84DB7700433173 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0511B1832C84DB7700433173 /* Constant.swift */; };
+		0511B1862C84DC7B00433173 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0511B1852C84DC7B00433173 /* LoginView.swift */; };
+		0511B1882C84DC9600433173 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0511B1872C84DC9600433173 /* LoginController.swift */; };
+		0511B18B2C84E07800433173 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0511B18A2C84E07800433173 /* CustomTextField.swift */; };
+		0511B18D2C84E2CB00433173 /* UIButton+Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0511B18C2C84E2CB00433173 /* UIButton+Authentication.swift */; };
+		0511B18F2C84E79800433173 /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0511B18E2C84E79800433173 /* RegistrationController.swift */; };
+		0511B1912C84E7B500433173 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0511B1902C84E7B500433173 /* RegistrationView.swift */; };
+		0511B1962C85029800433173 /* String+Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0511B1952C85029800433173 /* String+Authentication.swift */; };
 		056F30002C5CB2DD00931302 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056F2FFF2C5CB2DD00931302 /* AppDelegate.swift */; };
 		056F30022C5CB2DD00931302 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056F30012C5CB2DD00931302 /* SceneDelegate.swift */; };
 		056F30092C5CB2DF00931302 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 056F30082C5CB2DF00931302 /* Assets.xcassets */; };
 		056F300C2C5CB2DF00931302 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 056F300B2C5CB2DF00931302 /* Base */; };
-		056F301A2C5CB3B300931302 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056F30192C5CB3B300931302 /* HomeVC.swift */; };
+		056F301A2C5CB3B300931302 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056F30192C5CB3B300931302 /* HomeController.swift */; };
 		056F301C2C5CB40C00931302 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056F301B2C5CB40C00931302 /* HomeView.swift */; };
 		056F301F2C5CB44A00931302 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056F301E2C5CB44A00931302 /* BaseViewController.swift */; };
 		056F30212C5CB4F500931302 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056F30202C5CB4F500931302 /* BaseView.swift */; };
@@ -21,13 +35,28 @@
 
 /* Begin PBXFileReference section */
 		051156132C66620D00230CFE /* ReusableIdentifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableIdentifier.swift; sourceTree = "<group>"; };
+		0511B1692C847E5F00433173 /* LoginIntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginIntroView.swift; sourceTree = "<group>"; };
+		0511B16B2C84803A00433173 /* iSymbol.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iSymbol.entitlements; sourceTree = "<group>"; };
+		0511B16D2C84820500433173 /* LoginIntroController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginIntroController.swift; sourceTree = "<group>"; };
+		0511B1712C84BF8A00433173 /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
+		0511B1742C84C72D00433173 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		0511B17E2C84D8F700433173 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0511B1812C84DA0B00433173 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		0511B1832C84DB7700433173 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		0511B1852C84DC7B00433173 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		0511B1872C84DC9600433173 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		0511B18A2C84E07800433173 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		0511B18C2C84E2CB00433173 /* UIButton+Authentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Authentication.swift"; sourceTree = "<group>"; };
+		0511B18E2C84E79800433173 /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
+		0511B1902C84E7B500433173 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		0511B1952C85029800433173 /* String+Authentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Authentication.swift"; sourceTree = "<group>"; };
 		056F2FFC2C5CB2DD00931302 /* iSymbol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iSymbol.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		056F2FFF2C5CB2DD00931302 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		056F30012C5CB2DD00931302 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		056F30082C5CB2DF00931302 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		056F300B2C5CB2DF00931302 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		056F300D2C5CB2DF00931302 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		056F30192C5CB3B300931302 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		056F30192C5CB3B300931302 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		056F301B2C5CB40C00931302 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		056F301E2C5CB44A00931302 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		056F30202C5CB4F500931302 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
@@ -52,8 +81,55 @@
 			isa = PBXGroup;
 			children = (
 				051156132C66620D00230CFE /* ReusableIdentifier.swift */,
+				0511B1712C84BF8A00433173 /* UIColor+.swift */,
+				0511B18C2C84E2CB00433173 /* UIButton+Authentication.swift */,
+				0511B1952C85029800433173 /* String+Authentication.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		0511B1682C847E1700433173 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				0511B1692C847E5F00433173 /* LoginIntroView.swift */,
+				0511B1852C84DC7B00433173 /* LoginView.swift */,
+				0511B1902C84E7B500433173 /* RegistrationView.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		0511B16C2C8481EB00433173 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				0511B16D2C84820500433173 /* LoginIntroController.swift */,
+				0511B1872C84DC9600433173 /* LoginController.swift */,
+				0511B18E2C84E79800433173 /* RegistrationController.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		0511B1732C84C71C00433173 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				0511B1742C84C72D00433173 /* Pacifico-Regular.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		0511B1802C84D9F600433173 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				0511B1812C84DA0B00433173 /* AuthService.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		0511B1892C84E06A00433173 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				0511B18A2C84E07800433173 /* CustomTextField.swift */,
+			);
+			path = Component;
 			sourceTree = "<group>";
 		};
 		056F2FF32C5CB2DD00931302 = {
@@ -77,7 +153,9 @@
 		056F2FFE2C5CB2DD00931302 /* iSymbol */ = {
 			isa = PBXGroup;
 			children = (
+				0511B16B2C84803A00433173 /* iSymbol.entitlements */,
 				056F300D2C5CB2DF00931302 /* Info.plist */,
+				0511B17E2C84D8F700433173 /* GoogleService-Info.plist */,
 				056F30132C5CB2EF00931302 /* Resources */,
 				056F30142C5CB2FD00931302 /* Sources */,
 			);
@@ -87,6 +165,7 @@
 		056F30132C5CB2EF00931302 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				0511B1732C84C71C00433173 /* Font */,
 				056F30082C5CB2DF00931302 /* Assets.xcassets */,
 				056F300A2C5CB2DF00931302 /* LaunchScreen.storyboard */,
 			);
@@ -100,6 +179,7 @@
 				056F30162C5CB31B00931302 /* Model */,
 				056F30182C5CB34500931302 /* View */,
 				056F30172C5CB33C00931302 /* Controller */,
+				0511B1802C84D9F600433173 /* API */,
 				056F301D2C5CB42B00931302 /* Util */,
 			);
 			path = Sources;
@@ -124,6 +204,7 @@
 		056F30172C5CB33C00931302 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				0511B16C2C8481EB00433173 /* Authentication */,
 				056F30232C5CBE2900931302 /* Home */,
 			);
 			path = Controller;
@@ -132,6 +213,8 @@
 		056F30182C5CB34500931302 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				0511B1892C84E06A00433173 /* Component */,
+				0511B1682C847E1700433173 /* Authentication */,
 				056F30222C5CBE2100931302 /* Home */,
 			);
 			path = View;
@@ -140,6 +223,7 @@
 		056F301D2C5CB42B00931302 /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				0511B1832C84DB7700433173 /* Constant.swift */,
 				056F30242C5CBE2E00931302 /* Base */,
 				051156122C6661F100230CFE /* Extension */,
 			);
@@ -157,7 +241,7 @@
 		056F30232C5CBE2900931302 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				056F30192C5CB3B300931302 /* HomeVC.swift */,
+				056F30192C5CB3B300931302 /* HomeController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -206,6 +290,8 @@
 			dependencies = (
 			);
 			name = iSymbol;
+			packageProductDependencies = (
+			);
 			productName = iSymbol;
 			productReference = 056F2FFC2C5CB2DD00931302 /* iSymbol.app */;
 			productType = "com.apple.product-type.application";
@@ -234,6 +320,8 @@
 				Base,
 			);
 			mainGroup = 056F2FF32C5CB2DD00931302;
+			packageReferences = (
+			);
 			productRefGroup = 056F2FFD2C5CB2DD00931302 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -248,6 +336,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0511B1752C84C72D00433173 /* Pacifico-Regular.ttf in Resources */,
+				0511B17F2C84D8F700433173 /* GoogleService-Info.plist in Resources */,
 				056F30092C5CB2DF00931302 /* Assets.xcassets in Resources */,
 				056F300C2C5CB2DF00931302 /* Base in Resources */,
 			);
@@ -304,11 +394,23 @@
 			files = (
 				051156142C66620D00230CFE /* ReusableIdentifier.swift in Sources */,
 				056F301F2C5CB44A00931302 /* BaseViewController.swift in Sources */,
-				056F301A2C5CB3B300931302 /* HomeVC.swift in Sources */,
+				056F301A2C5CB3B300931302 /* HomeController.swift in Sources */,
+				0511B1912C84E7B500433173 /* RegistrationView.swift in Sources */,
 				056F301C2C5CB40C00931302 /* HomeView.swift in Sources */,
+				0511B1962C85029800433173 /* String+Authentication.swift in Sources */,
+				0511B18F2C84E79800433173 /* RegistrationController.swift in Sources */,
+				0511B16E2C84820500433173 /* LoginIntroController.swift in Sources */,
+				0511B1822C84DA0B00433173 /* AuthService.swift in Sources */,
 				056F30212C5CB4F500931302 /* BaseView.swift in Sources */,
 				056F30002C5CB2DD00931302 /* AppDelegate.swift in Sources */,
+				0511B16A2C847E5F00433173 /* LoginIntroView.swift in Sources */,
 				056F30022C5CB2DD00931302 /* SceneDelegate.swift in Sources */,
+				0511B1862C84DC7B00433173 /* LoginView.swift in Sources */,
+				0511B1722C84BF8A00433173 /* UIColor+.swift in Sources */,
+				0511B1842C84DB7700433173 /* Constant.swift in Sources */,
+				0511B18D2C84E2CB00433173 /* UIButton+Authentication.swift in Sources */,
+				0511B1882C84DC9600433173 /* LoginController.swift in Sources */,
+				0511B18B2C84E07800433173 /* CustomTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,6 +553,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = iSymbol/iSymbol.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7WULLR98GP;
@@ -487,6 +590,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = iSymbol/iSymbol.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7WULLR98GP;
