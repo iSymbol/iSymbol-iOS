@@ -19,6 +19,7 @@
 		4F4DA8AB2C84C342006CFE37 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4DA8AA2C84C342006CFE37 /* OnboardingView.swift */; };
 		4F4DA8AE2C84C360006CFE37 /* OnboardingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4DA8AD2C84C360006CFE37 /* OnboardingVC.swift */; };
 		4F4DA8B12C88DF07006CFE37 /* OnboardingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4DA8B02C88DF07006CFE37 /* OnboardingModel.swift */; };
+		4F4DA8B32C91962D006CFE37 /* Animation - 1726030734391.json in Resources */ = {isa = PBXBuildFile; fileRef = 4F4DA8B22C91962D006CFE37 /* Animation - 1726030734391.json */; };
 		784BD5D40BCA8A289965F7C8 /* Pods_iSymbol.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47CECE3639639584775D2F47 /* Pods_iSymbol.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +39,7 @@
 		4F4DA8AA2C84C342006CFE37 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		4F4DA8AD2C84C360006CFE37 /* OnboardingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingVC.swift; sourceTree = "<group>"; };
 		4F4DA8B02C88DF07006CFE37 /* OnboardingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingModel.swift; sourceTree = "<group>"; };
+		4F4DA8B22C91962D006CFE37 /* Animation - 1726030734391.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Animation - 1726030734391.json"; sourceTree = "<group>"; };
 		51E66DE497B97CE55F3946E0 /* Pods-iSymbol.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSymbol.release.xcconfig"; path = "Target Support Files/Pods-iSymbol/Pods-iSymbol.release.xcconfig"; sourceTree = "<group>"; };
 		8FBAE6FEC5B3B82FD3EB5D71 /* Pods-iSymbol.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSymbol.debug.xcconfig"; path = "Target Support Files/Pods-iSymbol/Pods-iSymbol.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -83,6 +85,7 @@
 		056F2FFE2C5CB2DD00931302 /* iSymbol */ = {
 			isa = PBXGroup;
 			children = (
+				4F4DA8B22C91962D006CFE37 /* Animation - 1726030734391.json */,
 				056F300D2C5CB2DF00931302 /* Info.plist */,
 				056F30132C5CB2EF00931302 /* Resources */,
 				056F30142C5CB2FD00931302 /* Sources */,
@@ -283,6 +286,7 @@
 			files = (
 				056F30092C5CB2DF00931302 /* Assets.xcassets in Resources */,
 				056F300C2C5CB2DF00931302 /* Base in Resources */,
+				4F4DA8B32C91962D006CFE37 /* Animation - 1726030734391.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

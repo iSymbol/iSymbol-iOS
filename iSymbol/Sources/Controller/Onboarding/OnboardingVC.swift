@@ -5,7 +5,7 @@
 //  Created by ohseungyeon on 9/2/24.
 //
 
-
+import Lottie
 import UIKit
 
 final class OnboardingViewController: BaseViewController {
@@ -50,6 +50,10 @@ final class OnboardingViewController: BaseViewController {
         // 모든 체크버튼 눌러졌을때 start 버튼 나타남
         let allSelected = onboardingItems.allSatisfy { $0.isSelected }
         onboardingView.startButton.isHidden = !allSelected
+        
+        if allSelected{
+            congrateanimation()
+        }
     }
     
     @objc private func didTapStartButton() {
@@ -62,6 +66,16 @@ final class OnboardingViewController: BaseViewController {
             homeVC.modalPresentationStyle = .fullScreen
             present(homeVC, animated: true, completion: nil)
         }
+    }
+    
+    // lottie 사용
+    private func congrateanimation(){
+        let animation = LottieAnimation.named("Animation - 1726030734391")
+        let animationView = LottieAnimationView(animation: animation)
+        animationView.center = view.center
+        animationView.isUserInteractionEnabled = false
+        view.addSubview(animationView)
+        animationView.play()
     }
     
     private func setupData() {
