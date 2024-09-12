@@ -30,6 +30,10 @@
 		056F301C2C5CB40C00931302 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056F301B2C5CB40C00931302 /* HomeView.swift */; };
 		056F301F2C5CB44A00931302 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056F301E2C5CB44A00931302 /* BaseViewController.swift */; };
 		056F30212C5CB4F500931302 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056F30202C5CB4F500931302 /* BaseView.swift */; };
+		4F4DA8B52C932BAA006CFE37 /* OnboardingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4DA8B42C932BAA006CFE37 /* OnboardingModel.swift */; };
+		4F4DA8BB2C932C0F006CFE37 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4DA8BA2C932C0F006CFE37 /* OnboardingView.swift */; };
+		4F4DA8BE2C932C58006CFE37 /* OnboardingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4DA8BD2C932C58006CFE37 /* OnboardingVC.swift */; };
+		4F4DA8C12C93316A006CFE37 /* Animation - 1726030734391.json in Resources */ = {isa = PBXBuildFile; fileRef = 4F4DA8C02C93316A006CFE37 /* Animation - 1726030734391.json */; };
 		784BD5D40BCA8A289965F7C8 /* Pods_iSymbol.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47CECE3639639584775D2F47 /* Pods_iSymbol.framework */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +65,10 @@
 		056F301E2C5CB44A00931302 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		056F30202C5CB4F500931302 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		47CECE3639639584775D2F47 /* Pods_iSymbol.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iSymbol.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F4DA8B42C932BAA006CFE37 /* OnboardingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OnboardingModel.swift; path = iSymbol/Sources/Model/Onboarding/OnboardingModel.swift; sourceTree = SOURCE_ROOT; };
+		4F4DA8BA2C932C0F006CFE37 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		4F4DA8BD2C932C58006CFE37 /* OnboardingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingVC.swift; sourceTree = "<group>"; };
+		4F4DA8C02C93316A006CFE37 /* Animation - 1726030734391.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Animation - 1726030734391.json"; sourceTree = "<group>"; };
 		51E66DE497B97CE55F3946E0 /* Pods-iSymbol.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSymbol.release.xcconfig"; path = "Target Support Files/Pods-iSymbol/Pods-iSymbol.release.xcconfig"; sourceTree = "<group>"; };
 		8FBAE6FEC5B3B82FD3EB5D71 /* Pods-iSymbol.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSymbol.debug.xcconfig"; path = "Target Support Files/Pods-iSymbol/Pods-iSymbol.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -165,6 +173,7 @@
 		056F30132C5CB2EF00931302 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				4F4DA8BF2C933145006CFE37 /* Animation */,
 				0511B1732C84C71C00433173 /* Font */,
 				056F30082C5CB2DF00931302 /* Assets.xcassets */,
 				056F300A2C5CB2DF00931302 /* LaunchScreen.storyboard */,
@@ -197,6 +206,7 @@
 		056F30162C5CB31B00931302 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				4F4DA8B82C932BE6006CFE37 /* Onboarding */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -204,6 +214,7 @@
 		056F30172C5CB33C00931302 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				4F4DA8BC2C932C25006CFE37 /* Onboarding */,
 				0511B16C2C8481EB00433173 /* Authentication */,
 				056F30232C5CBE2900931302 /* Home */,
 			);
@@ -213,6 +224,7 @@
 		056F30182C5CB34500931302 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				4F4DA8B92C932BFC006CFE37 /* Onboarding */,
 				0511B1892C84E06A00433173 /* Component */,
 				0511B1682C847E1700433173 /* Authentication */,
 				056F30222C5CBE2100931302 /* Home */,
@@ -262,6 +274,38 @@
 				51E66DE497B97CE55F3946E0 /* Pods-iSymbol.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		4F4DA8B82C932BE6006CFE37 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				4F4DA8B42C932BAA006CFE37 /* OnboardingModel.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		4F4DA8B92C932BFC006CFE37 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				4F4DA8BA2C932C0F006CFE37 /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		4F4DA8BC2C932C25006CFE37 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				4F4DA8BD2C932C58006CFE37 /* OnboardingVC.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		4F4DA8BF2C933145006CFE37 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				4F4DA8C02C93316A006CFE37 /* Animation - 1726030734391.json */,
+			);
+			path = Animation;
 			sourceTree = "<group>";
 		};
 		5EDBE6E4986AEAB03C2D5398 /* Frameworks */ = {
@@ -338,6 +382,7 @@
 			files = (
 				0511B1752C84C72D00433173 /* Pacifico-Regular.ttf in Resources */,
 				0511B17F2C84D8F700433173 /* GoogleService-Info.plist in Resources */,
+				4F4DA8C12C93316A006CFE37 /* Animation - 1726030734391.json in Resources */,
 				056F30092C5CB2DF00931302 /* Assets.xcassets in Resources */,
 				056F300C2C5CB2DF00931302 /* Base in Resources */,
 			);
@@ -398,6 +443,7 @@
 				0511B1912C84E7B500433173 /* RegistrationView.swift in Sources */,
 				056F301C2C5CB40C00931302 /* HomeView.swift in Sources */,
 				0511B1962C85029800433173 /* String+Authentication.swift in Sources */,
+				4F4DA8BB2C932C0F006CFE37 /* OnboardingView.swift in Sources */,
 				0511B18F2C84E79800433173 /* RegistrationController.swift in Sources */,
 				0511B16E2C84820500433173 /* LoginIntroController.swift in Sources */,
 				0511B1822C84DA0B00433173 /* AuthService.swift in Sources */,
@@ -408,6 +454,8 @@
 				0511B1862C84DC7B00433173 /* LoginView.swift in Sources */,
 				0511B1722C84BF8A00433173 /* UIColor+.swift in Sources */,
 				0511B1842C84DB7700433173 /* Constant.swift in Sources */,
+				4F4DA8BE2C932C58006CFE37 /* OnboardingVC.swift in Sources */,
+				4F4DA8B52C932BAA006CFE37 /* OnboardingModel.swift in Sources */,
 				0511B18D2C84E2CB00433173 /* UIButton+Authentication.swift in Sources */,
 				0511B1882C84DC9600433173 /* LoginController.swift in Sources */,
 				0511B18B2C84E07800433173 /* CustomTextField.swift in Sources */,
