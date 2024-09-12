@@ -10,5 +10,6 @@ target 'iSymbol' do
   pod 'Then'
   pod 'FirebaseAuth'
   pod 'FirebaseFirestore'
+  pod 'lottie-ios'
 
 end
